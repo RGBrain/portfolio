@@ -1,3 +1,4 @@
+/* Global colour scheme */
 :root {
   --off-white: rgba(238, 240, 242, 1);
   --spanish-gray: rgba(162, 153, 158, 1);
@@ -6,8 +7,7 @@
   --onyx: rgba(56, 61, 59, 1);
 
 }
-/* black and white and blue (sway orange) #242333, #FFFFFF, #01B0D3 */
-/* B&W Colors Used: #292929, #616161, #FFFFFF */
+
 * {
   box-sizing: border-box;
   color: var(--rich-black);
@@ -19,29 +19,40 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+/* Header and nav  */
 header {
   background-color: var(--onyx);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 14px;
 }
 nav {
   display: flex;
   justify-content: space-between;
+  height: 55px;
 }
 h1 {
   background-color: var(--orange-web);
-  min-width: 250px;
+  color: var(--onyx);
+  min-width: 300px;
   justify-content: flex-end;
   text-align: end;
   padding: 5px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
-
+/* Hero banner */
 .hero-banner {
-  border: 2px solid green;
-  background-image: url("../images/doubt.jpg");
-  background-size: contain;
-  height: 200px;
+  background-image: url("../images/code.jpg");
+  background-size: cover;
+  height: 180px;
+}
+h2 {
+  color: var(--onyx);
+}
+.tagline {
+
+  background-color: var(--orange-web);
+  max-width: 300px;
+
 }
 
 a {
@@ -66,6 +77,9 @@ h6 {
   margin: 0;
 }
 
+
 p {
   margin: 0;
 }
+
+

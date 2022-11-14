@@ -173,10 +173,8 @@ ul {
   margin-top: 1%;
   margin-bottom: 1%;
   border: solid var(--orange-web) 3px;
-    /* NEED TO CHANGE THIS TO FULL WIDTH IN MEDIA QUERY FOR MOBS */
   width: 48%;
   min-width: 200px;
-  /* margin: 5px; */
   height: 130px;
   background-size: cover;
   position: relative;

@@ -215,6 +215,7 @@ h4 {
   /* border: solid 5px green; */
 }
 
+/* p in the cards */
 .text-box p {
   /* color: red; */
   /* float: left; */
@@ -235,9 +236,8 @@ h4 {
   width: 75%;
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
-  padding-right: 5px;
-  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 #contact .section-title {
   margin-bottom: 100px;

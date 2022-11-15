@@ -48,6 +48,7 @@ h1 {
   min-width: 300px;
   text-align: end;
   font-size: 2.8rem;
+  padding-right: 10px;
 
 }
 
@@ -89,7 +90,6 @@ a {
 /* tagline */
 h2 {
   margin-top: 5px;
-  
 }
 
 .tagline {
@@ -260,3 +260,93 @@ footer h5 {
 footer p {
   text-align: center;
 }
+
+/* Media Queries for mobiles */
+@media screen and (max-width: 750px) {
+  /* RED FONT MOB BREAKPOINT INDICATOR */
+  * {color: red !important;
+  }
+
+  header {
+    height: 120px;
+    flex-wrap: wrap;
+  }
+  nav {
+    width: 85%;
+    flex-wrap: wrap;
+    align-items: left;
+
+  }
+  nav ul {
+    margin-top: 5px;
+    padding-right: 43px;
+    margin-left: -50px;
+    justify-content: space-around;
+  }
+  .tagline {
+    padding-left: 10px;
+    position: relative;
+    min-width: 280px;
+    height: 30%;
+    width: 60%;
+    text-align: left;
+    font-size: 1.3rem;
+    float: right;
+    right: 0%;
+    top: 60%;
+    border: red solid 5px;
+  }
+}
+
+/* nav {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+} */
+
+
+
+
+/* header { 
+  /* background-color: var(--onyx);
+  /* background-image: linear-gradient(var(--rich-black), var(--spanish-gray));
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+h1 {
+  background-color: var(--orange-web);
+  color: var(--onyx);
+  min-width: 300px;
+  text-align: end;
+  font-size: 2.8rem;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+}
+
+nav ul {
+  width: 45%;
+  min-width: 400px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding-right: 5px;
+}
+/* Custom underlining */
+/* li {
+  border-bottom: 4px solid var(--orange-web);
+  padding: 0px 9px 2px 9px;
+}
+a {
+  color: var(--orange-web);
+  text-decoration: none;
+}
+
+.contact a {
+  color: var(--spanish-gray);
+} */ 

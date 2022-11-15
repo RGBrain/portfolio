@@ -114,6 +114,7 @@ ul {
   align-items: center;
 }
 
+/* Main content with cards */
 .page-section {
   display: flex;
   justify-content: space-between;
@@ -144,12 +145,9 @@ ul {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  
-  /* border: 5px solid red; */
   width: 72%;
   margin: auto;
   padding-top: 35px;
-  /* background-color: aqua; */
 }
 
 .top-card {
@@ -242,10 +240,6 @@ h4 {
   margin-bottom: 100px;
 }
 
-/* .footer-blend {
-  height: 50px;
-  background-image: linear-gradient(var(--off-white), var(--spanish-gray));
-}  */
 footer {
   height: 230px;
   background-image: linear-gradient(var(--off-white), var(--orange-web));
@@ -291,5 +285,48 @@ footer p {
     width: 60%;
     text-align: left;
     right: 0%;
+  }
+  /* Main content with cards */
+  .page-section {
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .section-title {
+    width: 100%;
+    border-right: 0px;
+    border-bottom: 4px solid var(--spanish-gray);
+    text-align: start;
+  }
+  .section-title h3{
+    font-size: 2.2rem;
+  }
+  #about p {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  /* Work card area */
+  .flex-container {
+    width: 100%;
+  }
+  /* Contact me area  */
+  .contact ul {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .contact li {
+    min-width: 200px;
+  }
+
+  #contact .section-title {
+    margin-bottom: 30px;
   }
 }

@@ -240,10 +240,6 @@ h4 {
   margin-bottom: 100px;
 }
 
-/* .footer-blend {
-  height: 50px;
-  background-image: linear-gradient(var(--off-white), var(--spanish-gray));
-}  */
 footer {
   height: 230px;
   background-image: linear-gradient(var(--off-white), var(--orange-web));
@@ -315,5 +311,22 @@ footer p {
   /* Work card area */
   .flex-container {
     width: 100%;
+  }
+  /* Contact me area  */
+  .contact ul {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .contact li {
+    min-width: 200px;
+  }
+
+  #contact .section-title {
+    margin-bottom: 30px;
   }
 }
